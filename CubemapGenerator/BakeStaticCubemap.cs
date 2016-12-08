@@ -37,7 +37,7 @@ public class BakeStaticCubemap : ScriptableWizard
     // Quality settings.
     public int antiAliasing = 4;
 
-    public bool createIndividualImages = false;
+    public bool createIndividualImages = true;
 
     // The folder where individual cubemap images will be saved
     static string imageDirectory = "Assets/CubemapImages";
